@@ -15,7 +15,7 @@ and support for custom fonts
     installed. `fdisk -l` and `mount` may help.
 
 ```
-sudo sudo
+sudo su
 ```
 
 ```
