@@ -146,26 +146,6 @@ high quality wallpaper][wallpaper], resize it as appropriate, and replace the
 
 You can of course also choose your own background!
 
-### Personal Customization
-I personally prefer to use custom entries intstead of letting rEFInd detect them.
-For dual boot Win 11 and PoPOS I first remove scanning for their respective loaders.
-```
-dont_scan_dirs EFI/systemd,EFI/Pop_OS-bd461a32-3643-400c-9b69-7a1c64c9bc85,EFI/BOOT,EFI/Microsoft
-```
-
-And create custom menu entries
-```
-menuentry "Windows 11" {
-	icon /EFI/refind/themes/rEFInd-PS1TD/icons/os_win.png
-	loader /EFI/Microsoft/Boot/bootmgfw.efi
-}
-
-menuentry "Pop!_OS" {
-	icon /EFI/refind/themes/rEFInd-PS1TD/icons/os_pop.png
-	loader /EFI/Pop_OS-bd461a32-3643-400c-9b69-7a1c64c9bc85/vmlinuz.efi
-}
-```
-
 ### Attribution
 
 The Theme is a modified [rEFInd-minimal][refind-minimal] theme by [evanpurkhiser][refind-minimal-author].
