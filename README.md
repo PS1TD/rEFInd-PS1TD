@@ -6,7 +6,7 @@ This theme has support for tool icons(memtest, shell and so on),
 indicators for media that is external(usb, web, cd),
 and support for custom fonts
 
-![rEFInd PS1TD](http://i.imgur.com/3bMG6U7.png)
+![rEFInd PS1TD](https://github.com/quantrancse/rEFInd-minimal-themes/blob/master/screenshots/screenshot_dark.png)
 
 ### Usage
 
@@ -60,7 +60,7 @@ In theme.conf there is an included way to ignore directories.
 #dont_scan_dirs EFI/systemd,EFI/kali,EFI/Pop_OS-9a3d833c-29a5-4e4e-9dd6-ca48ddf4f94e,EFI/Boot
 ```
 
-For more information read through refind.conf
+For more information read through refind.conf and theme.conf
 
 ### Adding Shell
 
